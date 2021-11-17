@@ -18,7 +18,7 @@ const Page = () => {
 		<Layout>
 		<Container>
 		<Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-		  Hello, I&apos;m a web developer based in Chile!
+		  Hola, soy desarrollador web residente en Santiago de Chile!
 		</Box>
 
 		<Box display={{ md: 'flex' }}>
@@ -26,7 +26,7 @@ const Page = () => {
 		    <Heading as="h2" variant="page-title">
 		      Ignacio Rodríguez Villarroel
 		    </Heading>
-	        <p>Digital Creator ( Artist/ Developer / Designer )</p>
+	        <p>Contador / Desarrollador web</p>
 		  </Box>
 		  <Box 
 		  flexShrink={0} 
@@ -50,9 +50,9 @@ const Page = () => {
 
 	<Section delay={0.1}>
 		<Heading as="h3" variant="section-title">
-			Work
+			Trabajo
 		</Heading>
-		<Paragraph>Freelancer and web developer based in Santiago de Chile. Working since 2020 on programming and web construccion finding solutions to problems on the code area. I love to make music, writing and reading books.{/*  {' '} */}
+		<Paragraph>Freelancer y desarrollador web con viviendo en Santiago de Chile. Trabajando desde 2020 en programación y construcción web buscando soluciones a problemas en el área de programación e informática. Me gusta hacer música, escribir y leer libros.{/*  {' '} */}
 		{/* <NextLink href="/works/servNote">
 			<Link>Service Notebook</Link>
 			</NextLink> */}
@@ -60,30 +60,30 @@ const Page = () => {
 			<Box align="center" my={4}>
 				<NextLink href="/works">
 					<Button rightIcon={<ChevronRightIcon/>} colorScheme="teal">
-						My portfolio
+						Mi portafolio
 					</Button>
 				</NextLink>
 			</Box>
 	</Section>
 		<Section delay={0.2}>
 			<Heading as="h3" variant="section-title">
-				Bio
+				Biografía
 			</Heading>
 			<BioSection>
 				<BioYear>1992</BioYear>
-				Born in Santiago of Chile
+				Nace en Santiago of Chile
 			</BioSection>
 			<BioSection>
 				<BioYear>2017</BioYear>
-				He started studying Programmer Analyst on CIISA
+				Empieza a estudiar la carrera de Analista Programador en CIISA
 			</BioSection>
 			<BioSection>
-			<BioYear>2020 to present</BioYear>
-				Working as freelance
+			<BioYear>2020 a la actualidad</BioYear>
+				Trabajando como freelancer
 			</BioSection>
 			<BioSection>
 			<BioYear>2021</BioYear>
-			Completed the General Accounting career at INACAP
+			Termina la carrera de Contabilidad General en INACAP
 			</BioSection>
 		</Section>
 		<Section delay={0.3}>
@@ -91,16 +91,16 @@ const Page = () => {
 				Hobbies
 			</Heading>
 			<Paragraph>
-				Art, {' '}
+				Arte, {' '}
 				<Link href="#">
-				Music
+				Musica
 				</Link>
-				, Writing, Reading, Learning, Programming.
+				, Escribir, Leer, Aprender, Programación.
 			</Paragraph>
 		</Section>
 		<Section delay={0.3}>
 			<Heading as="h3" variant="section-title">
-				On the web
+				En la web
 			</Heading>
 			<List>
 				<ListItem>
@@ -115,7 +115,7 @@ const Page = () => {
 					</Link>
 				</ListItem>
 				<ListItem>
-					<Link href="https://www.instagram.com/ign.rv" target="_blank">
+					<Link href="https://www.instagram.com/ign.rv/" target="_blank">
 						<Button 
 						variant="ghost" 
 						colorScheme="teal" 
