@@ -49,7 +49,7 @@ const Page = () => {
 	    </Box>
 
 	<Section delay={0.1}>
-		<Heading as="h3" variant="section-title">
+		<Heading as="h3" variant="section-title" my={4}>
 			Trabajo
 		</Heading>
 		<Paragraph>Freelancer y desarrollador web con viviendo en Santiago de Chile. Trabajando desde 2020 en programación y construcción web buscando soluciones a problemas en el área de programación e informática. Me gusta hacer música, escribir y leer libros.{/*  {' '} */}
@@ -57,7 +57,7 @@ const Page = () => {
 			<Link>Service Notebook</Link>
 			</NextLink> */}
 			</Paragraph> 
-			<Box align="center" my={4}>
+			<Box align="center" my={7}>
 				<NextLink href="/works">
 					<Button rightIcon={<ChevronRightIcon/>} colorScheme="teal">
 						Mi portafolio
@@ -95,7 +95,7 @@ const Page = () => {
 				<Link href="#">
 				Musica
 				</Link>
-				, Escribir, Leer, Aprender, Programación.
+				, Escribir, Leer, Programación.
 			</Paragraph>
 		</Section>
 		<Section delay={0.3}>

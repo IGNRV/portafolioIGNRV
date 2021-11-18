@@ -22,7 +22,7 @@ const Work = () => {
                         </Link>
                     </ListItem>
                     <ListItem>
-                        <Meta>Platform</Meta>
+                        <Meta>OS</Meta>
                         <span>Windows/macOS/Linux/iOS/Android</span>
                     </ListItem>
                     <ListItem>

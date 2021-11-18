@@ -9,13 +9,13 @@ const Works = () => {
     return (
         <Layout>
         <Container>
-            <Heading as="h3" fontSize={20} mv={4}>
-                Works
+            <Heading as="h3" fontSize={20} mv={4} my={5}>
+                Portafolio
             </Heading>
             <SimpleGrid columns={[1,1,2]} gap={6}>
                 <Section>
                     <WorkGridItem id="servNote" title="Service Notebook" thumbnail={thumbServNote}>
-                        Technology Store
+                        Tienda de tecnología
                     </WorkGridItem>
                 </Section>
                 <Section>
@@ -24,7 +24,7 @@ const Works = () => {
             title="Cliníca Veterinaria Vet Dharma"
             thumbnail={thumbVetDharma}
           >
-            Veterinary clinic
+            Cliníca Veterinaria
           </WorkGridItem>
         </Section>
             </SimpleGrid>

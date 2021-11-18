@@ -12,7 +12,7 @@ const Work = () => {
                     Service Notebook <Badge>2021</Badge>
                 </Title>
                 <P>
-                    Technology store based on Prestashop platform
+                    Tienda de tecnología creada sobre la plataforma Prestashop
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
@@ -22,7 +22,7 @@ const Work = () => {
                         </Link>
                     </ListItem>
                     <ListItem>
-                        <Meta>Platform</Meta>
+                        <Meta>OS</Meta>
                         <span>Windows/macOS/Linux/iOS/Android</span>
                     </ListItem>
                     <ListItem>
