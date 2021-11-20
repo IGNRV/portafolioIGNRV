@@ -4,6 +4,7 @@ import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 import thumbServNote from '../public/images/works/servNote11.png'
 import thumbVetDharma from '../public/images/works/vetDharma_01.png'
+import thumbSde from '../public/images/works/Sde.png'
 
 const Works = () => {
     return (
@@ -25,6 +26,15 @@ const Works = () => {
             thumbnail={thumbVetDharma}
           >
             Cliníca Veterinaria
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="sde"
+            title="Sesión de Evaluación"
+            thumbnail={thumbSde}
+          >
+            Asesoria ERP
           </WorkGridItem>
         </Section>
             </SimpleGrid>

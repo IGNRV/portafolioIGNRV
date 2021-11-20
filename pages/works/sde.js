@@ -6,19 +6,19 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
     return (
-        <Layout title="Clínica Veterinaria Vet Dharma">
+        <Layout title="Sesión de evaluación">
             <Container>
                 <Title>
-                    Clínica Veterinaria Vet Dharma <Badge>2021</Badge>
+                    Sesión de Evaluación <Badge>2021</Badge>
                 </Title>
                 <P>
-                Landpage para Cliníca veterinaria con sistema de agendamiento establecida en Santiago de Chile desde 2020 
+                Pagina web hecha en base a Wordpress
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href='https://vetdharma.cl/'>
-                        https://vetdharma.cl/ <ExternalLinkIcon mx="2px" />
+                        <Link href='https://sesiondeevaluacion.cl/'>
+                        https://sesiondeevaluacion.cl/ <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem>
@@ -34,8 +34,8 @@ const Work = () => {
                         <span>Easy! Appointments</span>
                     </ListItem>
                 </List>
-                <WorkImage src="/images/works/vetDharma_01.png" alt="servNote" />
-                <WorkImage src="/images/works/vetDharma_02.png" alt="servNote" />
+                <WorkImage src="/images/works/Sde.png" alt="servNote" />
+                <WorkImage src="/images/works/Sde2.png" alt="servNote" />
 
             </Container>
         </Layout>
