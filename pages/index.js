@@ -52,7 +52,7 @@ const Page = () => {
 		<Heading as="h3" variant="section-title" my={4}>
 			Trabajo
 		</Heading>
-		<Paragraph>Freelancer y desarrollador web con viviendo en Santiago de Chile. Trabajando desde 2020 en programación y construcción web buscando soluciones a problemas en el área de programación e informática. Me gusta hacer música, escribir y leer libros.{/*  {' '} */}
+		<Paragraph>Freelancer y desarrollador web viviendo en Santiago de Chile. Trabajando desde 2020 en programación y desarrollo de paginas web buscando soluciones a problemas en el área de programación e informática. Me gusta hacer música, escribir y leer libros.{/*  {' '} */}
 		{/* <NextLink href="/works/servNote">
 			<Link>Service Notebook</Link>
 			</NextLink> */}
