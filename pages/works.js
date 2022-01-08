@@ -5,7 +5,8 @@ import Layout from '../components/layouts/article'
 import thumbServNote from '../public/images/works/servNote11.png'
 import thumbVetDharma from '../public/images/works/vetDharma_01.png'
 import thumbSde from '../public/images/works/Sde.png'
-import thumbRugalitos from '../public/images/works/thumbRugalitos.png'
+import thumbHada from '../public/images/works/thumbHada.png'
+import thumbRugalitos from '../public/images/works/thumbRugalitos.jpg'
 
 const Works = () => {
     return (
@@ -45,6 +46,15 @@ const Works = () => {
             thumbnail={thumbRugalitos}
           >
             Rugalitos
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="hada"
+            title="Tienda de Ropa Hada de las Compras"
+            thumbnail={thumbHada}
+          >
+            Hada de las Compras
           </WorkGridItem>
         </Section>
             </SimpleGrid>
