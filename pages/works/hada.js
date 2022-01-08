@@ -29,7 +29,7 @@ const Work = () => {
                         <span>JavaScript, HTML, CSS, PHP, MySQL</span>
                     </ListItem>
                 </List>
-                <WorkImage src="/images/works/thumbHada.jpg" alt="hadadelascompras" />
+                <WorkImage src="/images/works/thumbHada.png" alt="hadadelascompras" />
             </Container>
         </Layout>
     )
