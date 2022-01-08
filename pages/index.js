@@ -24,7 +24,7 @@ const Page = () => {
 		<Box display={{ md: 'flex' }}>
 		  <Box flexGrow={1}>
 		    <Heading as="h2" variant="page-title">
-		      Ignacio Rodríguez Villarroel
+		      Luis Rodríguez Villarroel
 		    </Heading>
 	        <p>Contador / Desarrollador web</p>
 		  </Box>
