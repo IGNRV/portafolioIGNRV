@@ -16,8 +16,8 @@ const Work = () => {
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href='https://adadelascompras.cl/'>
-                        https://adadelascompras.cl/ <ExternalLinkIcon mx="2px" />
+                        <Link href='https://hadadelascompras.cl/'>
+                        https://hadadelascompras.cl/ <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem>
