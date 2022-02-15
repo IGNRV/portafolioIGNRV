@@ -12,7 +12,7 @@ const Work = () => {
                     Hada de las Compras <Badge>2022</Badge>
                 </Title>
                 <P>
-                Sitio web Ecommerce para Tienda de ropa hecha en base a Wordpress</P>
+                Sitio web Ecommerce para Tienda de ropa hecho en base a Wordpress</P>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
