@@ -7,7 +7,7 @@ import thumbVetDharma from '../public/images/works/vetDharma_01.png'
 import thumbSde from '../public/images/works/Sde.png'
 import thumbHada from '../public/images/works/thumbHada.png'
 import thumbRugalitos from '../public/images/works/thumbRugalitos.jpg'
-import thumbGalp from '../public/images/works/thumbGalp.jpg'
+import thumbGalp from '../public/images/works/thumbGalp.png'
 
 const Works = () => {
     return (
