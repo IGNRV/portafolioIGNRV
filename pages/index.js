@@ -18,7 +18,7 @@ const Page = () => {
 		<Layout>
 		<Container>
 		<Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-		  Hola, soy desarrollador web residente en Santiago de Chile!
+		  Programador residente en Santiago de Chile!
 		</Box>
 
 		<Box display={{ md: 'flex' }}>
@@ -26,7 +26,7 @@ const Page = () => {
 		    <Heading as="h2" variant="page-title">
 		      Luis Rodríguez Villarroel
 		    </Heading>
-	        <p>Contador / Desarrollador web</p>
+	        <p>Contador / Programador</p>
 		  </Box>
 		  <Box 
 		  flexShrink={0} 
@@ -52,7 +52,7 @@ const Page = () => {
 		<Heading as="h3" variant="section-title" my={4}>
 			Trabajo
 		</Heading>
-		<Paragraph>Freelancer y desarrollador web viviendo en Santiago de Chile. Trabajando desde 2021 en programación y desarrollo de paginas web buscando soluciones a problemas en el área de programación e informática. Me gusta hacer música, escribir y leer libros.{/*  {' '} */}
+		<Paragraph>Programador freelancer viviendo en Santiago de Chile. Trabajando desde el año 2021 en programación y desarrollo de paginas web creando soluciones a problemas en el área de programación e informática. He realizado trabajos en lenguajes y herraminetas como Javascript, JQuery, HTML5, CSS, CSS3, Python, React, PHP, MySQL, Wordpress, Prestashop, Shopify, Django, MongoDB, Git.{/*  {' '} */}
 		{/* <NextLink href="/works/servNote">
 			<Link>Service Notebook</Link>
 			</NextLink> */}
@@ -88,14 +88,14 @@ const Page = () => {
 		</Section>
 		<Section delay={0.3}>
 			<Heading as="h3" variant="section-title">
-				Hobbies
+				Busco trabajo como:
 			</Heading>
 			<Paragraph>
-				Arte, {' '}
-				<Link href="#">
-				Musica
-				</Link>
-				, Escribir, Leer, Programación.
+				Backend developer junior, {' '}
+				/*<Link href="#">*/
+				Front-end developer,
+				/*</Link>*/
+				Mobile developer.
 			</Paragraph>
 		</Section>
 		<Section delay={0.3}>
@@ -104,7 +104,7 @@ const Page = () => {
 			</Heading>
 			<List>
 				<ListItem>
-					<Link href="#" target="_blank">
+					<Link href="https://github.com/IGNRV" target="_blank">
 						<Button 
 						variant="ghost" 
 						colorScheme="teal" 
