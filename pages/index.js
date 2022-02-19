@@ -10,7 +10,8 @@ import {
 	IoLogoTwitter,
 	IoLogoInstagram,
 	IoLogoGithub,
-	IoLogoDiscord
+	IoLogoDiscord,
+	IoLogoLinkedin
 } from 'react-icons/io5'
 
 const Page = () => {
@@ -93,7 +94,7 @@ const Page = () => {
 			<Paragraph>
 				Backend developer junior, {' '}
 {/*<Link href="#">*/}
-				Front-end developer,
+				Front-end developer, {' '}
 					{/*</Link>*/}
 				Mobile developer junior.
 			</Paragraph>
@@ -122,6 +123,17 @@ const Page = () => {
 						leftIcon={<Icon as ={IoLogoInstagram}/>}
 						>
 							@ign.rv
+						</Button>
+					</Link>
+				</ListItem>
+				<ListItem>
+					<Link href="https://www.linkedin.com/in/luis-rodr%C3%ADguez-villarroel-b047301a5/" target="_blank">
+						<Button 
+						variant="ghost" 
+						colorScheme="teal" 
+						leftIcon={<Icon as ={IoLogoLinkedin}/>}
+						>
+							Linkedin
 						</Button>
 					</Link>
 				</ListItem>
