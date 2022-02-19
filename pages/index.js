@@ -92,10 +92,10 @@ const Page = () => {
 			</Heading>
 			<Paragraph>
 				Backend developer junior, {' '}
-				/*<Link href="#">*/
+{/*<Link href="#">*/}
 				Front-end developer,
-				/*</Link>*/
-				Mobile developer.
+					{/*</Link>*/}
+				Mobile developer junior.
 			</Paragraph>
 		</Section>
 		<Section delay={0.3}>
