@@ -19,7 +19,7 @@ const Page = () => {
 		<Layout>
 		<Container>
 		<Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-		  Programador residente en Santiago de Chile!
+		  Developer residente en Santiago de Chile
 		</Box>
 
 		<Box display={{ md: 'flex' }}>
@@ -27,7 +27,7 @@ const Page = () => {
 		    <Heading as="h2" variant="page-title">
 		      Luis Rodríguez Villarroel
 		    </Heading>
-	        <p>Contador / Programador</p>
+	        <p>Contador / Developer</p>
 		  </Box>
 		  <Box 
 		  flexShrink={0} 
