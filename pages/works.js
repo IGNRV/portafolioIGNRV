@@ -28,6 +28,15 @@ const Works = () => {
         </Section>
         <Section>
           <WorkGridItem
+            id="sde"
+            title="Sesión de Evaluación"
+            thumbnail={thumbSde}
+          >
+            Asesoria ERP
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
             id="hada"
             title="Tienda de Ropa Hada de las Compras"
             thumbnail={thumbHada}
@@ -56,15 +65,6 @@ const Works = () => {
             thumbnail={thumbVetDharma}
           >
             Cliníca Veterinaria
-          </WorkGridItem>
-        </Section>
-        <Section>
-          <WorkGridItem
-            id="sde"
-            title="Sesión de Evaluación"
-            thumbnail={thumbSde}
-          >
-            Asesoria ERP
           </WorkGridItem>
         </Section>
             </SimpleGrid>
