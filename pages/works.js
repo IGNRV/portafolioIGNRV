@@ -17,29 +17,6 @@ const Works = () => {
                 Portafolio
             </Heading>
             <SimpleGrid columns={[1,1,2]} gap={6}>
-                <Section>
-                    <WorkGridItem id="servNote" title="Service Notebook" thumbnail={thumbServNote}>
-                        Tienda de tecnología
-                    </WorkGridItem>
-                </Section>
-                <Section>
-          <WorkGridItem
-            id="vetDharma"
-            title="Cliníca Veterinaria Vet Dharma"
-            thumbnail={thumbVetDharma}
-          >
-            Cliníca Veterinaria
-          </WorkGridItem>
-        </Section>
-        <Section>
-          <WorkGridItem
-            id="sde"
-            title="Sesión de Evaluación"
-            thumbnail={thumbSde}
-          >
-            Asesoria ERP
-          </WorkGridItem>
-        </Section>
         <Section>
           <WorkGridItem
             id="rugalitos"
@@ -65,6 +42,29 @@ const Works = () => {
             thumbnail={thumbGalp}
           >
             Galpones y Estructuras
+          </WorkGridItem>
+        </Section>
+        <Section>
+                    <WorkGridItem id="servNote" title="Service Notebook" thumbnail={thumbServNote}>
+                        Tienda de tecnología
+                    </WorkGridItem>
+                </Section>
+                <Section>
+          <WorkGridItem
+            id="vetDharma"
+            title="Cliníca Veterinaria Vet Dharma"
+            thumbnail={thumbVetDharma}
+          >
+            Cliníca Veterinaria
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="sde"
+            title="Sesión de Evaluación"
+            thumbnail={thumbSde}
+          >
+            Asesoria ERP
           </WorkGridItem>
         </Section>
             </SimpleGrid>
