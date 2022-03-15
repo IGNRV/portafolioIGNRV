@@ -53,7 +53,7 @@ const Page = () => {
 		<Heading as="h3" variant="section-title" my={4}>
 			Trabajo
 		</Heading>
-		<Paragraph>Programador freelancer viviendo en Santiago de Chile. Trabajando desde el año 2021 en programación y desarrollo de paginas web creando soluciones a problemas en el área de programación e informática. He realizado trabajos en lenguajes y herraminetas como Javascript, JQuery, HTML5, CSS, CSS3, Python, React, PHP, MySQL, Wordpress, Prestashop, Shopify, Django, MongoDB, Git.{/*  {' '} */}
+		<Paragraph>Programador freelancer viviendo en Santiago de Chile. Trabajando desde el año 2021 en programación y desarrollo de paginas web creando soluciones a problemas en el área de programación e informática. He realizado trabajos en lenguajes y herraminetas como Javascript, HTML5, CSS, Python, React, PHP, MySQL, Wordpress, Prestashop, MongoDB, Git.{/*  {' '} */}
 		{/* <NextLink href="/works/servNote">
 			<Link>Service Notebook</Link>
 			</NextLink> */}
