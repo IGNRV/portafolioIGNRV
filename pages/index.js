@@ -35,14 +35,6 @@ const Page = () => {
 		  ml={{md: 6}} 
 		  align="center"
 		  >
-		  <Image 
-		  borderColor="whiteAlpha.800" 
-		  borderWidth={2} 
-		  borderStyle="solid" 
-		  maxWidth="100px" 
-		  display="inline-block" 
-		  borderRadius="full" 
-		  alt="Profile Image" />
 
 
 		  </Box>
