@@ -44,7 +44,6 @@ const Page = () => {
 		<Heading as="h3" variant="section-title" my={4}>
 			Trabajo
 		</Heading>
-		<Paragraph>Programador freelancer viviendo en Santiago de Chile. Trabajando desde el año 2021 en programación y desarrollo de paginas web creando soluciones a problemas en el área de programación e informática. He realizado trabajos en lenguajes y herraminetas como Javascript, HTML5, CSS, Python, React, PHP, MySQL, Wordpress, Prestashop, MongoDB, Git.{/*  {' '} */}
 		{/* <NextLink href="/works/servNote">
 			<Link>Service Notebook</Link>
 			</NextLink> */}
@@ -57,27 +56,6 @@ const Page = () => {
 				</NextLink>
 			</Box>
 	</Section>
-		<Section delay={0.2}>
-			<Heading as="h3" variant="section-title">
-				Biografía
-			</Heading>
-			<BioSection>
-				<BioYear>1992</BioYear>
-				Nace en Santiago of Chile
-			</BioSection>
-			<BioSection>
-				<BioYear>2017</BioYear>
-				Empieza a estudiar la carrera de Analista Programador en CIISA
-			</BioSection>
-			<BioSection>
-			<BioYear>2020 a la actualidad</BioYear>
-				Trabajando como freelancer
-			</BioSection>
-			<BioSection>
-			<BioYear>2021</BioYear>
-			Termina la carrera de Contabilidad General en INACAP
-			</BioSection>
-		</Section>
 		<Section delay={0.3}>
 			<Heading as="h3" variant="section-title">
 				Busco trabajo como:
