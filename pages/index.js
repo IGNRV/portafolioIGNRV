@@ -58,18 +58,6 @@ const Page = () => {
 	</Section>
 		<Section delay={0.3}>
 			<Heading as="h3" variant="section-title">
-				Busco trabajo como:
-			</Heading>
-			<Paragraph>
-				Backend developer junior, {' '}
-{/*<Link href="#">*/}
-				Front-end developer, {' '}
-					{/*</Link>*/}
-				Mobile developer junior.
-			</Paragraph>
-		</Section>
-		<Section delay={0.3}>
-			<Heading as="h3" variant="section-title">
 				En la web
 			</Heading>
 			<List>
