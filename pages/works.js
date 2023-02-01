@@ -17,33 +17,6 @@ const Works = () => {
                 Portafolio
             </Heading>
             <SimpleGrid columns={[1,1,2]} gap={6}>
-        /*<Section>
-          <WorkGridItem
-            id="rugalitos"
-            title="Tienda de Mascotas Rugalitos"
-            thumbnail={thumbRugalitos}
-          >
-            Rugalitos
-          </WorkGridItem>
-        </Section>
-        <Section>
-          <WorkGridItem
-            id="sde"
-            title="Sesión de Evaluación"
-            thumbnail={thumbSde}
-          >
-            Asesoria ERP
-          </WorkGridItem>
-        </Section>
-        <Section>
-          <WorkGridItem
-            id="hada"
-            title="Tienda de Ropa Hada de las Compras"
-            thumbnail={thumbHada}
-          >
-            Hada de las Compras
-          </WorkGridItem>
-        </Section>*/
         <Section>
           <WorkGridItem
             id="galp"
@@ -58,15 +31,6 @@ const Works = () => {
                         Tienda de tecnología
                     </WorkGridItem>
                 </Section>
-               /* <Section>
-          <WorkGridItem
-            id="vetDharma"
-            title="Cliníca Veterinaria Vet Dharma"
-            thumbnail={thumbVetDharma}
-          >
-            Cliníca Veterinaria
-          </WorkGridItem>
-        </Section>*/
             </SimpleGrid>
         </Container>
         </Layout>
