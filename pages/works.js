@@ -17,7 +17,7 @@ const Works = () => {
                 Portafolio
             </Heading>
             <SimpleGrid columns={[1,1,2]} gap={6}>
-        <Section>
+        /*<Section>
           <WorkGridItem
             id="rugalitos"
             title="Tienda de Mascotas Rugalitos"
@@ -43,7 +43,7 @@ const Works = () => {
           >
             Hada de las Compras
           </WorkGridItem>
-        </Section>
+        </Section>*/
         <Section>
           <WorkGridItem
             id="galp"
@@ -58,7 +58,7 @@ const Works = () => {
                         Tienda de tecnología
                     </WorkGridItem>
                 </Section>
-                <Section>
+               /* <Section>
           <WorkGridItem
             id="vetDharma"
             title="Cliníca Veterinaria Vet Dharma"
@@ -66,7 +66,7 @@ const Works = () => {
           >
             Cliníca Veterinaria
           </WorkGridItem>
-        </Section>
+        </Section>*/
             </SimpleGrid>
         </Container>
         </Layout>
