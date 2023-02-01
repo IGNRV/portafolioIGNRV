@@ -43,7 +43,6 @@ const Page = () => {
 		{/* <NextLink href="/works/servNote">
 			<Link>Service Notebook</Link>
 			</NextLink> */}
-			</Paragraph> 
 			<Box align="center" my={7}>
 				<NextLink href="/works">
 					<Button rightIcon={<ChevronRightIcon/>} colorScheme="teal">
