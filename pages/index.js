@@ -31,6 +31,7 @@ const Page = () => {
 		  ml={{md: 6}} 
 		  align="center"
 		  >
+			  Con más de tres años de experiencia en el campo de la informática y contabilidad, he tenido la oportunidad de trabajar en proyectos con clientes y realizar trabajos a contrato, incluyendo honorarios. Durante mi carrera, he trabajado con diversos lenguajes de programación, como PHP, Javascript, y manejo de bases de datos MySQL, además de ser proficiente en frameworks como Laravel, ReactJS y VueJS. Además, tengo habilidades avanzadas en el uso de Excel y otros programas relacionados. Me considero una persona proactiva, con habilidades de liderazgo y capacidad de trabajo en equipo, lo que me permite contribuir de manera efectiva en cualquier proyecto que se me asigne. Estoy emocionado por la oportunidad de aplicar mis conocimientos y habilidades para resolver los desafíos y alcanzar los objetivos de cualquier empresa.
 
 
 		  </Box>
