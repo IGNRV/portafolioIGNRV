@@ -21,9 +21,9 @@ const Page = () => {
 		<Box display={{ md: 'flex' }}>
 		  <Box flexGrow={1}>
 		    <Heading as="h2" variant="page-title">
-		      Luis Rodríguez Villarroel
+		      Ignacio Rodríguez Villarroel
 		    </Heading>
-	        <p>Contador / Developer</p>
+	        <p>Contador / Programador</p>
 		  </Box>
 		  <Box 
 		  flexShrink={0} 
@@ -40,13 +40,10 @@ const Page = () => {
 		<Heading as="h3" variant="section-title" my={4}>
 			Trabajo
 		</Heading>
-		{/* <NextLink href="/works/servNote">
-			<Link>Service Notebook</Link>
-			</NextLink> */}
 			<Box align="center" my={7}>
 				<NextLink href="/works">
 					<Button rightIcon={<ChevronRightIcon/>} colorScheme="teal">
-						Mi portafolio
+						Portafolio
 					</Button>
 				</NextLink>
 			</Box>
@@ -68,18 +65,7 @@ const Page = () => {
 					</Link>
 				</ListItem>
 				<ListItem>
-					<Link href="https://www.instagram.com/ign.rv/" target="_blank">
-						<Button 
-						variant="ghost" 
-						colorScheme="teal" 
-						leftIcon={<Icon as ={IoLogoInstagram}/>}
-						>
-							@ign.rv
-						</Button>
-					</Link>
-				</ListItem>
-				<ListItem>
-					<Link href="https://www.linkedin.com/in/luis-rodr%C3%ADguez-villarroel-b047301a5/" target="_blank">
+					<Link href="https://www.linkedin.com/in/ignacio-rodr%C3%ADguez-villarroel-b047301a5/" target="_blank">
 						<Button 
 						variant="ghost" 
 						colorScheme="teal" 
